@@ -28,11 +28,11 @@ const App = () => {
     return (
         <div className="container mt-3 p-3">
           
-            <CreateNote createNote={createNote} />
+            <CreateNote />
             <hr />
             <ImportantNotes notes={notes} toggle_note={toggle_note} />
             <hr />
-            <AllNotes notes={notes} toggle_note={toggle_note} />
+            <AllNotes  toggle_note={toggle_note} />
         </div>
     )
 }
